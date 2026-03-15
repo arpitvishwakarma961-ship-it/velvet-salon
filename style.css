@@ -468,3 +468,7 @@ footer {
     width: 95%;
   }
 }
+.card:hover{
+transform:scale(1.05);
+transition:0.4s;
+}
