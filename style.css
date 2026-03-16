@@ -481,3 +481,48 @@ animation:pulse 2s infinite;
 70%{box-shadow:0 0 0 20px rgba(255,77,109,0);}
 100%{box-shadow:0 0 0 0 rgba(255,77,109,0);}
 }
+.hero{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.6);
+padding:60px;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.hero-buttons{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.btn-outline{
+padding:15px 30px;
+border:2px solid white;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.btn-outline:hover{
+background:white;
+color:black;
+transition:.3s;
+}
